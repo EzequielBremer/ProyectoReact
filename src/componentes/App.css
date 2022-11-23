@@ -1,3 +1,28 @@
+.logo{
+    height: 25px;
+    width: 25px;
+}
+
+.navContainer{
+    background-color: rgb(151, 79, 202);
+}
+
+.buscarBtn{
+    background-color: rgb(255, 255, 255);
+    color: rgb(151, 79, 202);
+    transition: all 0.5;
+}
+
+.buscarBtn:hover{
+    background-color: green;
+    color: rgb(255, 255, 255);
+    cursor:crosshair;
+}
+
+.buscadorBtn{
+    background-color: rgb(255, 255, 255);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -12,7 +37,7 @@
     grid-template-areas: "header" 
    "main"
    "footer";
-   background-image: url("../imgcarrusel/fondosakura.jpg");
+   background-image: url("./img/fondosakura.jpg");
    }
 
 .navContainer{
