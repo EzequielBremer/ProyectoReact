@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "idCategoria": 2,
+        "nombre": "Cofias",
+        "caracteristicas": "Cofias para el uso justo antes de dormir para mantener el volumen de tu pelo",
+        "precio": 300,
+        "stock": 9,
+        "img": "scrunchiefive.jpeg"
+    },
+    {
+        "id": 2,
+        "idCategoria": 1,
+        "nombre": "Scunchie",
+        "caracteristicas": "Scrunchies de distintos colores y variedades de funciones",
+        "precio": 300,
+        "stock": 10,
+        "img": "scrunchiesix.jpeg"
+    },
+    {
+        "id": 3,
+        "idCategoria": 2,
+        "nombre": "Cofia",
+        "caracteristicas": "Cofias preciosa color rosa",
+        "precio": 300,
+        "stock": 22,
+        "img": "scrunchienine.jpeg"
+    },
+    {
+        "id": 4,
+        "idCategoria": 1,
+        "nombre": "Scunchie",
+        "caracteristicas": "Scrunchies de distintos colores",
+        "precio": 300,
+        "stock": 4,
+        "img": "scrunchiethree.jpeg"
+    },
+    {
+        "id": 5,
+        "idCategoria": 1,
+        "nombre": "Scunchie",
+        "caracteristicas": "Scrunchies de distintos colores",
+        "precio": 300,
+        "stock": 28,
+        "img": "scrunchieseven.jpeg"
+    },
+    {
+        "id": 6,
+        "idCategoria": 1,
+        "nombre": "Scunchie",
+        "caracteristicas": "Scrunchies de distintos colores",
+        "precio": 300,
+        "stock": 4,
+        "img": "scrunchieeight.jpeg"
+    },
+    {
+        "id": 7,
+        "idCategoria": 1,
+        "nombre": "Scunchie",
+        "caracteristicas": "Scrunchies de distintos colores",
+        "precio": 300,
+        "stock": 20,
+        "img": "scrunchiefour.jpeg"
+    },
+    {
+        "id": 8,
+        "idCategoria": 3,
+        "nombre": "Vincha",
+        "caracteristicas": "Scrunchies de distintos colores",
+        "precio": 300,
+        "stock": 14,
+        "img": "scrunchieten.jpeg"
+    },
+    {
+        "id": 9,
+        "idCategoria": 1,
+        "nombre": "scunchie",
+        "caracteristicas": "Scrunchies de distintos colores",
+        "precio": 300,
+        "stock": 10,
+        "img": "scrunchieTwo.jpeg"
+    },
+    {
+        "id": 10,
+        "idCategoria": 1,
+        "nombre": "Scunchie",
+        "caracteristicas": "Scrunchies de distintos colores",
+        "precio": 300,
+        "stock": 7,
+        "img": "scrunchieOne.jpeg"
+    }
+]

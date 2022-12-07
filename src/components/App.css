@@ -1,0 +1,97 @@
+.cardProducto {
+    width: 20%;
+    margin: 4px;
+    background-color:rgba(141, 42, 184, 0.544);
+    height: 600px;
+}
+.cardBody {
+    margin-bottom: 1%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.cardProductos {
+    display: flex;
+    margin: 4px;
+    align-items:flex-start;
+    justify-content: center;
+}
+.cardProductos img {
+    margin-top:3px;
+    width: 100%;
+    height: 400px;
+}
+.btnVerProducto{
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.btnVerProducto:hover{
+    background-color:rgb(77, 63, 89);
+    color: rgb(0, 0, 0);
+}
+
+
+
+.carrito{
+    color: rgb(255, 255, 255);
+}
+.detalleItemCarrito{
+    color: rgb(255, 255, 255);
+}
+.containerVerProducto{
+    background-color: rgba(0, 0, 0, 0.448);
+}
+
+
+
+.cartWidget {
+    position: relative;
+    right: 3%;
+    background-color: rgb(224, 156, 223);
+}
+.carrito{
+    color:rgb(0, 0, 0);
+}
+.cartWidget:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+.itemDetail {
+    max-width: 540px;
+    margin-top: 20px;
+    color: black;
+}
+
+
+
+.cantCarrito {
+    position: relative;
+    left: 5px;
+}
+.tituloCart {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin: 20px;
+    color: rgb(255, 255, 255);
+}
+
+
+
+.navContainer{
+    background-color: rgb(0, 0, 0);
+    border-bottom: 5px solid rgb(77, 63, 89);
+}
+.itemNavSeccionesContainer{
+    background-color: rgb(224, 156, 223);
+    color: rgb(255, 255, 255);
+}
+.itemNavSecciones{
+    color: rgb(0, 0, 0);
+}
+.itemNavSeccionesContainer:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+.logoNav img{
+    width: 100px;
+}

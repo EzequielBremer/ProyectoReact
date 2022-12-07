@@ -1,9 +1,10 @@
-.logoSp{
-    width: 70px;
-    height: 65px;
-    border: 2px solid rgb(129, 102, 154);
+.bodyBG{
+    background-color: rgb(224, 156, 223);
 }
-
-.itemDeNav:hover{
-    border-bottom: 1px solid rgb(255, 255, 255);
+.footer{
+    background-color:rgb(255, 193, 255);
+}
+.footerTxt{
+    background-color:rgb(224, 156, 223);
+    color: white;
 }
