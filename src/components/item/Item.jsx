@@ -1,6 +1,6 @@
 
 import { Link } from "react-router-dom";
-import { useDarkModeContext } from "../../Context/darkModeContext";
+import { useDarkModeContext } from "../../Context/DarkModeContext";
 
 const Item = ({prod}) => {
     const {DarkMode} = useDarkModeContext();

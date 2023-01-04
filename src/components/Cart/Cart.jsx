@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import { useDarkModeContext } from "../../Context/darkModeContext";
-import { useCarritoContext } from "../../Context/carritoContext";
+import { useDarkModeContext } from "../../Context/DarkModeContext";
+import { useCarritoContext } from "../../Context/CarritoContext";
 
 const Cart = () => {
     const {DarkMode} = useDarkModeContext()
@@ -9,8 +9,8 @@ const Cart = () => {
         <>
             {carrito.length === 0 ? 
             <>
-                <h1>Carrito vacio</h1>
-                <button className={`btn ${DarkMode ? 'btn-secondary' : 'btn-primary'}`}><Link  className="nav-link" to={'/'}>Continuar comprando</Link></button>
+                <h1 className={` ${DarkMode ? 'h1CompraLight' : 'h1CompraDark'}`}>Carrito vacio</h1>
+                <button className={`btn ${DarkMode ? 'btn-light' : 'btn-dark'}`}><Link  className="nav-link" to={'/'}>Continuar comprando</Link></button>
             </>
             :
             <div className="container cartContainer">

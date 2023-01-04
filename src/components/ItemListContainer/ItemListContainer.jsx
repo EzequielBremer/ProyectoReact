@@ -3,7 +3,7 @@ import {useState, useEffect} from 'react';
 import ItemList from '../ItemList/ItemList.jsx';
 import { useParams } from 'react-router-dom';
 import { consultarBDD } from '../../assets/Funciones.js';
-import { cargarBDD, getProducto, getProductos, updateProducto, deleteProducto } from '../../assets/firebase.js';
+import { cargarBDD, getProducto, getProductos, updateProducto, deleteProducto } from '../../assets/FireBase.js';
 
 const ItemListContainer = () => {
 
@@ -17,7 +17,7 @@ const ItemListContainer = () => {
             })
         }
 
-        cargarBDD().then()
+        //cargarBDD().then()
         
     },[category]);
     

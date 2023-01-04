@@ -1,5 +1,5 @@
 import './BotonDarkMode.css'
-import { useDarkModeContext } from '../../../Context/darkModeContext.js';
+import { useDarkModeContext } from '../../../Context/DarkModeContext.js';
 
 const BotonDarkMode = () => {
 

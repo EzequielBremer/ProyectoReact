@@ -1,22 +1,21 @@
-
 import CartWidget from '../CartWidget/CartWidget';
 import Categorias from './Categorias/Categorias';
-import BotonDarkMode from './BtnDarkMode/BtnDarkMode.css';
-import { useDarkModeContext } from '../../Context/darkModeContext.jsx';
-import logo from '../imgcarrusel/logospcomun.jpg'
+import BotonDarkMode from './BotonDarkMode/BotonDarkMode';
+import { useDarkModeContext } from '../../Context/DarkModeContext';
+import logo from '../imgcarrusel/logosp.ico';
 
 const Navbar = () => {
   const {DarkMode} = useDarkModeContext();
   return (
     <div>
-      <nav className={`navbar navbar-expand-lg navbar-dark ${DarkMode ? 'bg-primary' : 'bg-dark'}`}>
+      <nav className={`navbar navbar-expand-lg  ${DarkMode ? 'colorNav1' : 'colorNav2'}`}>
         <div className="container-fluid">
-        <img src={logo} alt="logo"/>
+          <img src= {logo} alt="logo" width="54" />
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon" />
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <Navbar/>
+            
             <Categorias/>
             <CartWidget />
             <BotonDarkMode/>
@@ -29,9 +28,3 @@ const Navbar = () => {
 }
 
 export default Navbar;
-
-
-
-
-
-<img src={logo} alt="logo"/>

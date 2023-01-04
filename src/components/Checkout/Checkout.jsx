@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { createOrdenCompra, getOrdenCompra, getProducto, updateProducto } from '../../assets/firebase';
-import { useCarritoContext } from '../../Context/carritoContext';
+import { createOrdenCompra, getOrdenCompra, getProducto, updateProducto } from '../../assets/FireBase';
+import { useCarritoContext } from '../../Context/CarritoContext';
 import { toast } from 'react-toastify';
 
 const Checkout = () => {

@@ -1,4 +1,3 @@
-
 import './App.css';
 import 'react-toastify/dist/ReactToastify.css'
 
@@ -12,8 +11,8 @@ import ItemDetailContainer from './ItemDetailContainer/ItemDetailContainer';
 import Cart from './Cart/Cart';
 import Checkout from './Checkout/Checkout';
 
-import { DarkModeProvider } from '../Context/darkModeContext';
-import { CarritoProvider } from '../Context/carritoContext';
+import { DarkModeProvider } from '../Context/DarkModeContext';
+import { CarritoProvider } from '../Context/CarritoContext';
 
 const App = () => {
 

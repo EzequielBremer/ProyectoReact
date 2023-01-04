@@ -16,7 +16,7 @@
   }
   
   .slider {
-    background-color: #ccc;
+    background-color: rgb(140, 140, 140);
     bottom: 0;
     cursor: pointer;
     left: 0;
@@ -38,7 +38,7 @@
   }
   
   input:checked + .slider {
-    background-color: black;
+    background-color: rgb(63, 63, 63);
   }
   
   input:checked + .slider:before {
