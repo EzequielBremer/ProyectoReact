@@ -20,12 +20,11 @@ const ItemDetail = ({item}) => {
             <div className="col-md-8" >
                 <div className="card-body">
                     <h5 className="card-title">{item.nombre}</h5>
-                    <p className="card-text">Modelo: {item.modelo} </p>
-                    <p className="card-text">Marca: {item.marca} </p>
+                    <p className="card-text">Caracteristicas: {item.caracteristicas} </p>
                     <p className="card-text">Precio: $ {new Intl.NumberFormat('de-DE').format(item.precio)} </p>
                     <p className="card-text">Stock: {item.stock} </p>
                     <ItemCount inicial = {1} stock= {item.stock} onAdd={onAdd}/><br/>
-                    <button className={`btn ${DarkMode ? 'btn-dark' : 'btn-light'}`}><Link to="/cart" className="nav-link">Finalizar compra</Link></button>
+                    <button className={`btn ${DarkMode ? 'btn-primary' : 'btn-secondary'}`}><Link to="/cart" className="nav-link">Finalizar compra</Link></button>
                 </div>
                 
             </div>
