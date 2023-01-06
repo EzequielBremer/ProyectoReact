@@ -2,7 +2,7 @@
 import {useState, useEffect} from 'react';
 import ItemList from '../ItemList/ItemList.jsx';
 import { useParams } from 'react-router-dom';
-import { getProducto, getProductos, updateProducto } from '../../assets/FireBase.js';
+import { getProducto, getProductos, updateProducto, cargarBDD } from '../../assets/FireBase.js';
 
 const ItemListContainer = () => {
 
@@ -24,6 +24,8 @@ const ItemListContainer = () => {
             })
         }
 
+
+        //cargarBDD().then(productos => console.log (productos))
         
     },[category]);
     
