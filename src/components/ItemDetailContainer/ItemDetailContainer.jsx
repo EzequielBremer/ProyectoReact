@@ -15,7 +15,7 @@ const ItemDetailContainer = () => {
     },);
 
     return (
-        <div className={`card mb-3 container itemDetail ${DarkMode ? 'text-white bg-secondary' : 'border-light'}`}>
+        <div className={`card mb-3 container itemDetail ${DarkMode ? 'verProductoContainer' : 'verProductoContainerD'}`}>
             <ItemDetail item={producto} />
         </div>
     );

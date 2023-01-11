@@ -8,7 +8,7 @@ const CartWidget = () => {
 
     return (
         <>
-            <button className={`btn ${DarkMode ? 'btnVerProdObs' : 'carritoClaro'}`}>
+            <button className={`btn ${DarkMode ? 'carritoClaro' : 'carritoClaro'}`}>
                 <Link to={'/cart'} className="nav-link">
                     <i className="fas fa-shopping-cart fa-lg"></i>
                     {getItemQuantity() > 0 && <span className="cantCarrito">{getItemQuantity()}</span>}
